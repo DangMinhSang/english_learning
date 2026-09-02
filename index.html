@@ -1,43 +1,61 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>English Journey</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>English Journey — Daily B1 English</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main class="app">
+  <nav class="topbar">
+    <a class="brand" href="./"><span class="brand-mark">E</span><span>English Journey</span></a>
+    <a class="nav-link" href="./day_1/">Start learning →</a>
+  </nav>
+
   <header class="hero">
-    <div>
-      <div class="eyebrow">🇬🇧 ENGLISH JOURNEY</div>
-      <h1>Daily B1 English</h1>
-      <p>One focused lesson every day. Learn, practise, and track your progress.</p>
+    <div class="hero-inner">
+      <div class="eyebrow">DAILY ENGLISH · B1 LEVEL</div>
+      <h1>Build better English,<br>one day at a time.</h1>
+      <p>Short, focused lessons designed to help you build vocabulary, reading, listening, writing and speaking skills without feeling overwhelmed.</p>
+      <div class="hero-meta"><span class="pill">🎯 B1 → B2</span><span class="pill">⏱ 30–60 min/day</span><span class="pill">📅 1 focused skill/day</span></div>
     </div>
-    <div class="badge">B1 → B2</div>
   </header>
 
-  <section class="card">
-    <div class="section-head"><span class="step">LESSONS</span><h2>Choose a day</h2></div>
-    <a class="lesson-link" href="day_1/">
-      <strong>Day 1 — Vocabulary</strong>
-      <span>20 useful B1 words + interactive quiz</span>
-    </a>
-    <a class="lesson-link" href="day_2/">
-      <strong>Day 2 — Reading</strong>
-      <span>One B1 reading + comprehension questions</span>
-    </a>
-  </section>
+  <div class="layout">
+    <section class="card">
+      <div class="section-head"><div class="section-title"><span class="step">LEARNING PATH</span><h2>Continue your journey</h2></div></div>
+      <div class="lesson-list">
+        <a class="lesson-link" href="day_1/">
+          <div class="lesson-main"><div class="lesson-icon">📚</div><div class="lesson-copy"><strong>Day 1 · Vocabulary</strong><span>20 useful B1 words, examples and an interactive quiz.</span></div></div><span class="arrow">→</span>
+        </a>
+        <a class="lesson-link" href="day_2/">
+          <div class="lesson-main"><div class="lesson-icon">📖</div><div class="lesson-copy"><strong>Day 2 · Reading</strong><span>Read a practical B1 text and test your understanding.</span></div></div><span class="arrow">→</span>
+        </a>
+        <a class="lesson-link" href="day_3/">
+          <div class="lesson-main"><div class="lesson-icon">🎧</div><div class="lesson-copy"><strong>Day 3 · Listening</strong><span>Listen to real English, answer questions and review the script.</span></div></div><span class="arrow">→</span>
+        </a>
+        <div class="lesson-link" style="opacity:.58;cursor:default">
+          <div class="lesson-main"><div class="lesson-icon">✍️</div><div class="lesson-copy"><strong>Day 4 · Writing</strong><span>Coming next in your daily learning cycle.</span></div></div><span class="arrow">•••</span>
+        </div>
+        <div class="lesson-link" style="opacity:.58;cursor:default">
+          <div class="lesson-main"><div class="lesson-icon">🗣️</div><div class="lesson-copy"><strong>Day 5 · Speaking</strong><span>Coming next in your daily learning cycle.</span></div></div><span class="arrow">•••</span>
+        </div>
+      </div>
+    </section>
 
-  <section class="card info-card">
-    <div class="section-head"><span class="step">ROTATION</span><h2>Your learning cycle</h2></div>
-    <div class="cycle">
-      <span>📚 Vocabulary</span><span>📖 Reading</span><span>🎧 Listening</span><span>✍️ Writing</span><span>🗣️ Speaking</span>
-    </div>
-    <p>Each lesson takes about 30–60 minutes. Difficulty increases gradually from basic B1 upward.</p>
-  </section>
-
-  <footer>English Journey · Daily practice</footer>
+    <aside class="sidebar">
+      <section class="card">
+        <div class="section-head"><div class="section-title"><span class="step">OVERVIEW</span><h2>At a glance</h2></div></div>
+        <div class="stats"><div class="stat"><strong>5</strong><span>skills in cycle</span></div><div class="stat"><strong>30–60</strong><span>minutes / day</span></div><div class="stat"><strong>B1</strong><span>starting level</span></div><div class="stat"><strong>→ B2</strong><span>gradual growth</span></div></div>
+      </section>
+      <section class="card">
+        <div class="section-head"><div class="section-title"><span class="step">CYCLE</span><h2>Every week</h2></div></div>
+        <div class="cycle"><span>01 · Vocabulary</span><span>02 · Reading</span><span>03 · Listening</span><span>04 · Writing</span><span>05 · Speaking</span></div>
+      </section>
+    </aside>
+  </div>
+  <footer>English Journey · Daily practice, steady progress.</footer>
 </main>
 </body>
 </html>
