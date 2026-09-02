@@ -1,45 +1,26 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>English Journey — Day 1</title>
-  <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>English Journey — Day 1: Vocabulary</title>
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <main class="app">
-  <header class="hero">
-    <div>
-      <div class="eyebrow">🇬🇧 ENGLISH JOURNEY</div>
-      <h1>Day 1 — B1 Vocabulary</h1>
-      <p>20 useful B1 words. Learn, practise, and check your score.</p>
-    </div>
-    <div class="badge">30–60 min</div>
-  </header>
-
-  <section class="progress-wrap">
-    <div class="progress-label"><span>Your progress</span><strong id="progressText">0%</strong></div>
-    <div class="progress"><div id="progressBar"></div></div>
-  </section>
-
-  <section class="card">
-    <div class="section-head"><span class="step">STEP 1</span><h2>Learn the words</h2></div>
-    <div id="wordCard" class="word-card"></div>
-    <div class="controls">
-      <button id="prevBtn" class="secondary">← Previous</button>
-      <button id="nextBtn">Next →</button>
-    </div>
-  </section>
-
-  <section class="card quiz-card">
-    <div class="section-head"><span class="step">STEP 2</span><h2>Quick quiz</h2></div>
-    <div id="quiz"></div>
-    <button id="submitBtn" class="full">Check answers</button>
-    <div id="result" class="result" hidden></div>
-  </section>
-
-  <footer><a href="../">← Back to English Journey</a></footer>
-</main>
+<nav class="topbar"><a class="brand" href="../"><span class="brand-mark">E</span><span>English Journey</span></a><a class="nav-link" href="../">All lessons</a></nav>
+<header class="hero"><div class="hero-inner"><div class="eyebrow">DAY 1 · VOCABULARY</div><h1>Build a stronger B1 vocabulary.</h1><p>Learn 20 useful words through clear examples, then check what you remember with a quick quiz.</p><div class="hero-meta"><span class="pill">📚 20 words</span><span class="pill">⏱ 30–60 min</span><span class="pill">🎯 B1 level</span></div></div></header>
+<section class="progress-wrap"><div class="progress-label"><span>Lesson progress</span><strong id="progressText">0%</strong></div><div class="progress"><div id="progressBar"></div></div></section>
+<div class="layout">
+<div>
+<section class="card"><div class="section-head"><div class="section-title"><span class="step">STEP 1</span><h2>Learn the words</h2></div></div><div id="wordCard" class="word-card"></div><div class="controls"><button id="prevBtn" class="secondary">← Previous</button><button id="nextBtn">Next →</button></div></section>
+<section class="card quiz-card"><div class="section-head"><div class="section-title"><span class="step">STEP 2</span><h2>Quick quiz</h2></div></div><div id="quiz"></div><button id="submitBtn" class="full">Check answers</button><div id="result" class="result" hidden></div></section>
+<div class="back-row"><a href="../">← Back to learning path</a><a href="../day_2/">Next: Day 2 Reading →</a></div>
+</div>
+<aside class="sidebar"><section class="card"><div class="section-head"><div class="section-title"><span class="step">TIP</span><h2>How to study</h2></div></div><p>Say each word aloud, read the example sentence twice, then try to make one sentence of your own.</p></section><section class="card"><div class="stats"><div class="stat"><strong>20</strong><span>new words</span></div><div class="stat"><strong>5</strong><span>quiz questions</span></div></div></section></aside>
+</div>
+<footer>English Journey · Day 1</footer>
 <script src="./script.js"></script>
+</main>
 </body>
 </html>
