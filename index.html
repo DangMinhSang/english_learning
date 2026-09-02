@@ -1,45 +1,43 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>English Journey — Day 1</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>English Journey</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main class="app">
   <header class="hero">
     <div>
       <div class="eyebrow">🇬🇧 ENGLISH JOURNEY</div>
-      <h1>Day 1 — B1 Vocabulary</h1>
-      <p>20 useful words. Learn, practise, and check your score.</p>
+      <h1>Daily B1 English</h1>
+      <p>One focused lesson every day. Learn, practise, and track your progress.</p>
     </div>
-    <div class="badge">30–60 min</div>
+    <div class="badge">B1 → B2</div>
   </header>
 
-  <section class="progress-wrap">
-    <div class="progress-label"><span>Your progress</span><strong id="progressText">0%</strong></div>
-    <div class="progress"><div id="progressBar"></div></div>
+  <section class="card">
+    <div class="section-head"><span class="step">LESSONS</span><h2>Choose a day</h2></div>
+    <a class="lesson-link" href="day_1/">
+      <strong>Day 1 — Vocabulary</strong>
+      <span>20 useful B1 words + interactive quiz</span>
+    </a>
+    <a class="lesson-link" href="day_2/">
+      <strong>Day 2 — Reading</strong>
+      <span>One B1 reading + comprehension questions</span>
+    </a>
   </section>
 
-  <section id="lesson" class="card">
-    <div class="section-head"><span class="step">STEP 1</span><h2>Learn the words</h2></div>
-    <div id="wordCard" class="word-card"></div>
-    <div class="controls">
-      <button id="prevBtn" class="secondary">← Previous</button>
-      <button id="nextBtn">Next →</button>
+  <section class="card info-card">
+    <div class="section-head"><span class="step">ROTATION</span><h2>Your learning cycle</h2></div>
+    <div class="cycle">
+      <span>📚 Vocabulary</span><span>📖 Reading</span><span>🎧 Listening</span><span>✍️ Writing</span><span>🗣️ Speaking</span>
     </div>
+    <p>Each lesson takes about 30–60 minutes. Difficulty increases gradually from basic B1 upward.</p>
   </section>
 
-  <section class="card quiz-card">
-    <div class="section-head"><span class="step">STEP 2</span><h2>Quick quiz</h2></div>
-    <div id="quiz"></div>
-    <button id="submitBtn" class="full">Check answers</button>
-    <div id="result" class="result" hidden></div>
-  </section>
-
-  <footer>Keep going — small daily practice adds up.</footer>
+  <footer>English Journey · Daily practice</footer>
 </main>
-<script src="script.js"></script>
 </body>
 </html>
